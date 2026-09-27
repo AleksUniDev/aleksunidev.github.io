@@ -1,3 +1,5 @@
+import {details} from './details.js';
+
 export const content = {
   ru: {
     nav: ['Проекты', 'Обо мне', 'Опыт'], contact: 'Обсудим проект', available: 'Открыт к предложениям',
@@ -51,3 +53,10 @@ export const content = {
     ]
   }
 };
+
+for (const language of ['ru', 'en']) {
+  Object.assign(content[language], details[language]);
+  for (const project of content[language].projects) {
+    Object.assign(project, details[language].projectDetails[project.id]);
+  }
+}

@@ -19,6 +19,8 @@ npm run preview
 
 The production output is `dist/`. No backend, tracking services, paid APIs, cookies or remote fonts are used. All images are served locally. Content lives in `src/content.js`; UI and interactions in `src/main.js`; the isometric canvas in `src/world.js`; responsive styles in `src/style.css`.
 
+Expanded project responsibilities, engineering stories, per-project stacks, the technology catalogue and earlier-project details live in `src/details.js`, in Russian and English. They are merged into the base content; the mini-game keeps its short summaries.
+
 ## Deployment
 
 Repository: `AwsomeSauci/AwsomeSauci.github.io`. Enable GitHub Pages with GitHub Actions as the build source. Every push to `main` builds and deploys the site using `.github/workflows/deploy.yml`.
