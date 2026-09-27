@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://awsomesauci.github.io/sitemap.xml
