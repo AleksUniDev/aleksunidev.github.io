@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://awsomesauci.github.io/sitemap.xml
+Sitemap: https://aleksunidev.github.io/sitemap.xml

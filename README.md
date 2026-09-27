@@ -23,9 +23,9 @@ Expanded project responsibilities, engineering stories, per-project stacks, the 
 
 ## Deployment
 
-Repository: `AwsomeSauci/AwsomeSauci.github.io`. Enable GitHub Pages with GitHub Actions as the build source. Every push to `main` builds and deploys the site using `.github/workflows/deploy.yml`.
+Repository: `AleksUniDev/aleksunidev.github.io`. Enable GitHub Pages with GitHub Actions as the build source. Every push to `main` builds and deploys the site using `.github/workflows/deploy.yml`.
 
-The site is configured for an origin-root deployment, including the free user site `https://awsomesauci.github.io/` and a future custom domain. Deploying under a repository subdirectory would require changing Vite base and asset paths.
+The site is configured for an origin-root deployment, including the free organization site `https://aleksunidev.github.io/` and a future custom domain. Deploying under a repository subdirectory would require changing Vite base and asset paths.
 
 ## Custom domain
 
